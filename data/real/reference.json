@@ -1,0 +1,8 @@
+{
+  "file": "coins.png",
+  "source": "skimage.data.coins",
+  "reference_type": "manual visual count by rows",
+  "rows_top_to_bottom": [6, 6, 6, 6],
+  "count": 24,
+  "has_pixel_instance_annotations": false
+}

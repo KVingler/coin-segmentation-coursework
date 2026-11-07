@@ -1,0 +1,11 @@
+{
+  "seed": 20261107,
+  "height": 256,
+  "width": 320,
+  "validation_per_condition": 5,
+  "test_per_condition": 20,
+  "min_area": 120,
+  "gaussian_sigma": 1.0,
+  "background_sizes": [45, 61, 81],
+  "h_values": [1.0, 2.0, 3.0, 4.0]
+}
