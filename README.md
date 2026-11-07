@@ -1,6 +1,6 @@
 # 不均匀光照下的硬币图像分割与计数
 
-图像处理与分析课程大作业，面向本科大三。以 Otsu + 连通域计数为基础，加入形态学背景校正与距离变换分水岭，分析各模块在光照变化和目标粘连条件下的作用。无需 GPU 或训练模型。
+以 Otsu + 连通域计数为基础，加入形态学背景校正与距离变换分水岭，分析各模块在光照变化和目标粘连条件下的作用。无需 GPU 或训练模型。
 
 工程链接：**https://github.com/KVingler/coin-segmentation-coursework**
 
@@ -82,9 +82,6 @@ tests/test_core.py        6 项核心校验
 tools/build_report.py     从实测 JSON 构建 Word 报告
 data/                     原图、真值、清单与数据说明
 results/                  逐图指标、汇总、参数搜索、图表
-实验报告.docx              按课程要求组织的报告
 ```
 
 `results/per_image.csv` 是 80×4=320 行逐图记录；`summary.csv` 按条件汇总；`validation_search.csv` 保留全部选参记录；`experiment.json` 记录环境、耗时和最差样例。计时仅包含分割、单次测量，受硬件和负载影响，重新运行不会逐位一致。数值指标与数据 PNG 可在相同依赖和配置下确定性复现。
-
-工程源代码按 MIT 许可发布，真实照片与第三方依赖遵循原许可。
